@@ -1,0 +1,14 @@
+edit src/config
+make
+cd relase
+./SelectHubs hubtype
+eg:
+./SelectHubs indeg
+./Online hubtype HubNum depth stopRea eta
+eg:
+./Online indeg 5000000 5 0.0001 0
+
+
+
+
+./Online_ap indeg 5000 5 0.00001 0 3000
