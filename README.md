@@ -21,16 +21,16 @@ Modify the Config in `UISim_C++/src/Config.cpp` and compile with `make`.
 ./SelectHubs [hubType]
 ```
 
-#### Single Source
-
-```shell
-./Online [hubType] [numHubs] [depth] [stopRea] [eta]
-```
-
 #### Single Pair
 
 ```shell
 ./Online_sp [hubType] [numHubs] [depth] [stopRea] [eta]
+```
+
+#### Single Source
+
+```shell
+./Online [hubType] [numHubs] [depth] [stopRea] [eta]
 ```
 
 #### All Pair
@@ -56,21 +56,28 @@ Modify the Config in `UISim_C++/src/Config.cpp` and compile with `make`.
 #### All Pair
 
 - LocalPush https://github.com/KeithYue/SimRankRelease
-- TreeWand (implemented in `baselines` folder)
+- TreeWand https://github.com/fastsim2016/TreeWand
 
 
 
-#### Data links
+## Data links
 
-1. Wiki
+#### Small Graph
 
-2. DBLP
-3. CA (CondMat)
-4. enwiki2013  http://law.di.unimi.it/webdata/enwiki-2013/
-5. it2014 http://law.di.unimi.it/webdata/it-2004/
-6. Friendster http://snap.stanford.edu/data/com-Friendster.html 
-7. Gnutella http://snap.stanford.edu/data/index.html 
-8. DBLP http://forward.cs.illinois.edu/datasets/RoundTripRank/RoundTripRank-BibQueryGraphs-Apr2013-BibNet.zip
+1. WikiVode (Wiki in `data` folder)
+2. 4Area (DBLP in `data` folder)
+3. CondMat (CA in `data` folder)
+
+#### Big Graph
+
+1. enwiki2013  http://law.di.unimi.it/webdata/enwiki-2013/
+2. it2014 http://law.di.unimi.it/webdata/it-2004/
+3. Friendster http://snap.stanford.edu/data/com-Friendster.html 
+
+#### Dynamic Graph
+
+1. Gnutella http://snap.stanford.edu/data/index.html 
+2. DBLP http://forward.cs.illinois.edu/datasets/RoundTripRank/RoundTripRank-BibQueryGraphs-Apr2013-BibNet.zip
 
 
 
