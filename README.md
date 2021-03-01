@@ -56,7 +56,7 @@ Modify the Config in `UISim_C++/src/Config.cpp` and compile with `make`.
 #### All Pair
 
 - LocalPush https://github.com/KeithYue/SimRankRelease
-- TreeWand in baselines
+- TreeWand (implemented in `baselines` folder)
 
 
 
@@ -79,21 +79,6 @@ Modify the Config in `UISim_C++/src/Config.cpp` and compile with `make`.
 If you have any questions related to the code, feel free to email Kai (`drogozhang@gmail.com`). 
 
 If you encounter any problems when using the code, or want to report a bug, you can open an issue. Please try to specify the problem with details so we can help you better and quicker!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
